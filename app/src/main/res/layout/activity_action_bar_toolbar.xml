@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ActionBarToolbarActivity">
 
+    <include
+        android:id="@+id/mToolbar"
+        layout="@layout/toolbar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

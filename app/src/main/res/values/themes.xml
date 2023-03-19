@@ -36,7 +36,6 @@
     <style name="MyPopUpTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:background">@color/purple_200111</item>
         <item name="android:textColorPrimary">@color/purple_2001111</item>
-
     </style>
 
 </resources>
