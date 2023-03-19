@@ -26,16 +26,31 @@
         <item name="colorButtonNormal">@color/purple_20011</item>
         <item name="colorControlActivated">@color/purple_200111</item>
 
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="actionModeStyle">@style/MyActionMode</item>
+
     </style>
 
     <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">@android:color/white</item> <!--Text color of Toolbar Title-->
-        <item name="android:textColorSecondary">@android:color/white</item> <!--Color of Overflow Menu (3 dots icon) and Navigation Drawer Icons-->
+        <item name="android:textColorPrimary">@android:color/white
+        </item> <!--Text color of Toolbar Title-->
+        <item name="android:textColorSecondary">@android:color/white
+        </item> <!--Color of Overflow Menu (3 dots icon) and Navigation Drawer Icons-->
     </style>
 
     <style name="MyPopUpTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:background">@color/purple_200111</item>
         <item name="android:textColorPrimary">@color/purple_2001111</item>
+    </style>
+
+    <style name="MyActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="background">@color/contextual_background</item>
+        <item name="titleTextStyle">@style/MyTextStyle</item>
+    </style>
+
+    <style name="MyTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/contextualText</item>
     </style>
 
 </resources>

@@ -18,5 +18,7 @@
     <color name="purple_7001">#283739</color>
     <color name="teal_2001">#FFFBE2</color>
     <color name="teal_7001">#F7EEBB</color>
+    <color name="contextual_background">#2C5D63</color>
+    <color name="contextualText">#A9C52F</color>
 
 </resources>
