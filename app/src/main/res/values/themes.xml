@@ -1,26 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base Application Theme -->
-    <style name="AppMaterialTheme" parent="Theme.MaterialDeisignDemoSH" >
+    <style name="AppMaterialTheme" parent="Theme.MaterialDeisignDemoSH">
         <!-- Customise your Theme -->
 
     </style>
 
 
-
-
-
-
-
-
-
     <!-- Base application theme. [Parent Theme for All]-->
-    <style name="Theme.MaterialDeisignDemoSH" parent="Theme.AppCompat.Light">
+    <style name="Theme.MaterialDeisignDemoSH" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_5001</item>
         <item name="colorPrimaryVariant">@color/purple_7001</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">@color/purple_2001</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_2001</item>
         <item name="colorSecondaryVariant">@color/teal_7001</item>
@@ -28,5 +20,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="colorAccent">@color/purple_2001</item>
+        <item name="colorControlHighlight">@color/purple_2001111</item>
+        <item name="colorButtonNormal">@color/purple_20011</item>
+        <item name="colorControlActivated">@color/purple_200111</item>
+
     </style>
+
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item> <!--Text color of Toolbar Title-->
+        <item name="android:textColorSecondary">@android:color/white</item> <!--Color of Overflow Menu (3 dots icon) and Navigation Drawer Icons-->
+    </style>
+
+    <style name="MyPopUpTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/purple_200111</item>
+        <item name="android:textColorPrimary">@color/purple_2001111</item>
+
+    </style>
+
 </resources>
