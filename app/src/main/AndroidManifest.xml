@@ -12,15 +12,6 @@
         android:theme="@style/AppMaterialTheme"
         tools:targetApi="31">
         <activity
-            android:name=".ContextualMenuActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StandAloneToolbarActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActionBarToolbarActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
