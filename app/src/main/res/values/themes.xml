@@ -27,6 +27,9 @@
         <item name="colorControlActivated">@color/purple_200111</item>
         <item name="android:navigationBarColor">@color/purple_7001</item>
 
+        <item name="errorTextColor">@color/purple_20011</item>
+        <item name="colorControlNormal">@color/purple_5001</item>
+
         <item name="windowActionModeOverlay">true</item>
 
         <item name="actionModeStyle">@style/MyActionMode</item>

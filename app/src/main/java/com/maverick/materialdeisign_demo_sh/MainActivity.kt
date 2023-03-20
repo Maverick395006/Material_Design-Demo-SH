@@ -16,6 +16,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.btnSubmit.setOnClickListener {
+            signUp()
+        }
+
+    }
+
+    fun signUp() {
+        var isValid = true
+        if (binding.etFullName.text.toString().isEmpty()) {
+            binding.inputLayoutFullName.error = "Full Name is Mandatory"
+            isValid = false
+        } else {
+            binding.inputLayoutFullName.isErrorEnabled = false
+        }
     }
 
 }
