@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.toolbar.title = "Toolbar Title"
+
+        binding.collapsingToolbar.title = "Collapsing toolbar"
+
+
     }
 
 }

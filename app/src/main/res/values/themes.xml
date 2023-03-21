@@ -21,7 +21,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-        <item name="colorAccent">@color/purple_2001</item>
+        <item name="colorAccent">@color/purple_20011</item>
         <item name="colorControlHighlight">@color/purple_2001111</item>
         <item name="colorButtonNormal">@color/purple_20011</item>
         <item name="colorControlActivated">@color/purple_200111</item>
